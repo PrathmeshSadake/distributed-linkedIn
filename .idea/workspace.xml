@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11b68fc5-c824-4555-b648-fec64c27756d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/postService/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/PostServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/config/Appconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/controller/PostLikesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/dto/PostCreateRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/dto/PostDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/entity/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/src/test/java/me/prathmeshsadake/linkedin/postService/PostServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/test/java/me/prathmeshsadake/linkedin/userService/UserServiceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/PrathmeshSadake/distributed-linkedIn.git",
+    "accountId": "bc068afd-7fec-4e62-a24c-c9549f564a84"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3LeOngtMz5g49Hyo0zCHWuma09D" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.PostServiceApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/prathmesh/Desktop/Work/Personal/distributed-linkedIn",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PostServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="postService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.prathmeshsadake.linkedin.postService.PostServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.prathmeshsadake.linkedin.postService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PostServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11b68fc5-c824-4555-b648-fec64c27756d" name="Changes" comment="" />
+      <created>1793811236850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793811236850</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
