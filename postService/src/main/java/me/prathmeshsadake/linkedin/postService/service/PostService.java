@@ -11,7 +11,6 @@ import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -26,21 +25,21 @@ public class PostService {
         Post post = modelMapper.map(postCreateRequestDto, Post.class);
         post.setUserId(userId);
         post = postRepository.save(post);
-        return new ModelMapper().map(post, PostDto.class);
-    }
-
-    public PostDto getPostById(Long postId) {
-        Post post = postRepository.findById(postId).orElseThrow(()-> new ResourceNotFoundException("Post not found with ID " + postId));
         return modelMapper.map(post, PostDto.class);
     }
 
-     public List<PostDto> getAllPostsOfUser(Long userId) {
-         log.info("Getting all posts of user {}", userId);
-         List<Post> postList = postRepository.findByUserId(userId);
+    public PostDto getPostById(Long postId) {
+        Post post = postRepository.findById(postId)
+                .orElseThrow(() -> new ResourceNotFoundException("Post not found with ID " + postId));
+        return modelMapper.map(post, PostDto.class);
+    }
 
-         return postList.stream()
-                 .map((element)->modelMapper.map(element, PostDto.class))
-                 .collect(Collectors.toList());
+    public List<PostDto> getAllPostsOfUser(Long userId) {
+        log.info("Getting all posts of user {}", userId);
+        List<Post> postList = postRepository.findByUserId(userId);
 
-     }
+        return postList.stream()
+                .map(element -> modelMapper.map(element, PostDto.class))
+                .collect(Collectors.toList());
+    }
 }
