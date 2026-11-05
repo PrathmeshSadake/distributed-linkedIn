@@ -5,32 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11b68fc5-c824-4555-b648-fec64c27756d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/postService/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/PostServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/config/Appconfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/controller/PostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/controller/PostLikesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/dto/PostCreateRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/dto/PostDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/entity/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/repository/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/src/test/java/me/prathmeshsadake/linkedin/postService/PostServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/UserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/test/java/me/prathmeshsadake/linkedin/userService/UserServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/exception/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/repository/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/postService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,19 +28,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/PrathmeshSadake/distributed-linkedIn.git",
-    "accountId": "bc068afd-7fec-4e62-a24c-c9549f564a84"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PrathmeshSadake/distributed-linkedIn.git&quot;,
+    &quot;accountId&quot;: &quot;bc068afd-7fec-4e62-a24c-c9549f564a84&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1,
-  "fromUser": false
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3LeOngtMz5g49Hyo0zCHWuma09D" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -68,31 +49,91 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.PostServiceApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/prathmesh/Desktop/Work/Personal/distributed-linkedIn",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.distributed-linkedIn.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.PostServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/prathmesh/Desktop/Work/Personal/distributed-linkedIn&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="PostServiceApplication" value="STOPPED" />
+              <entry key="UserServiceApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
+    <configuration name="Post Service" type="Application" factoryName="Application">
+      <module name="postService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="distributed-linkedIn" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="PostServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="postService" />
@@ -107,9 +148,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="userService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.prathmeshsadake.linkedin.userService.UserServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.prathmeshsadake.linkedin.userService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.PostServiceApplication" />
+        <item itemvalue="Spring Boot.UserServiceApplication" />
       </list>
     </recent_temporary>
   </component>
