@@ -1,0 +1,8 @@
+package me.prathmeshsadake.linkedin.postService.repository;
+
+import me.prathmeshsadake.linkedin.postService.entity.PostLike;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PostLikeRepository extends JpaRepository<PostLike, Long> {
+     boolean existsByUserIdAndPostId(Long userId, Long postId);
+}
