@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11b68fc5-c824-4555-b648-fec64c27756d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/controller/PostLikeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/entity/PostLike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/exception/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/repository/PostLikeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/service/PostLikeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/config/Appconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/dto/LoginRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/dto/SignupRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/exception/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/service/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/utils/BCrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/controller/PostLikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/controller/PostLikeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/controller/PostLikesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/exception/ApiError.java" beforeDir="false" afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/exception/ApiError.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/repository/PostLikeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/repository/PostLikeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/service/PostLikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/postService/src/main/java/me/prathmeshsadake/linkedin/postService/service/PostLikeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +78,7 @@
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/prathmesh/Desktop/Work/Personal/distributed-linkedIn&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/prathmesh/Desktop/Work/Personal/distributed-linkedIn/userService/src/main/java/me/prathmeshsadake/linkedin/userService/exception&quot;,
     &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -71,6 +89,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/exception" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -188,5 +207,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/exception/ApiError.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
