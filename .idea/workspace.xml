@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11b68fc5-c824-4555-b648-fec64c27756d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/config/Appconfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/controller/UserController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/userService/src/main/java/me/prathmeshsadake/linkedin/userService/dto/LoginRequestDto.java" afterDir="false" />
